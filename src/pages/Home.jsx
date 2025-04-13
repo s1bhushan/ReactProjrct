@@ -1,4 +1,5 @@
 import React from "react";
+import Housing from "./Housing";
 
 function Home(){
     return(
@@ -47,6 +48,7 @@ function Home(){
              <p>6K+ listings added daily and 97K+ total verified</p>
              <div className="tabs">
                <a href="#" className="active">BUY</a>
+               
                <a href="#">RENT</a>
                <a href="#">COMMERCIAL</a>
                <a href="#">PG/CO-LIVING</a>
@@ -302,12 +304,14 @@ function Home(){
    </section>
 
    <section className="listings">
+   
        <div className="button_ex">
        <h3>Research and Insights</h3>
        <h5>Explore useful real estate insights</h5>
        
        
        </div>
+       <div className="propertymain">
 
        <div className="property">
            <img src="https://c.housingcdn.com/demand/s/client/common/assets/priceTrends.fbcaa632.svg" alt="House 1"/>
@@ -324,8 +328,10 @@ function Home(){
            <h6>Housing Research  </h6>
            <p>Find reports on Indian residential market</p>
        </div>
-       
-   </section>
+       </div>
+   </section>y
+
+   <Housing/>
 
    <section className="contact">
        <h2>Contact Us</h2>
